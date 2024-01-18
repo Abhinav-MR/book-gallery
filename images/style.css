@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+padding: 0;
+}
+header {
+    background-color: darkturquoise;
+    height: 50px;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+header h1{
+    color:darkblue ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+}
+.row{
+    background-color: aquamarine;
+    height: 600px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.col{
+    background-color: aquamarine;
+    height: 450px;
+    margin: 10px;
+    padding: 20px;
+}
+img{
+    padding: 10px;
+    border-radius: 15%;
+}
+h2{
+    color: rgb(101, 23, 23);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+    color: brown;
+    margin: 5px;
+    font-size: larger;
+}
+#btn{
+    background-color: blue;
+border-radius: 0;
+padding: 5px;
+color: aliceblue;
+
+}
+footer{
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 100%;
+}
+h3{
+    color: aliceblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+
+}
+p{
+    color: brown;
+    font-style: italic;
+    margin: 0px;
+}
+.banner{
+    background-image: url(https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?cs=srgb&dl=pexels-pixabay-159711.jpg&fm=jpg);
+height: 400px;
+width: 100%;
+
+}
